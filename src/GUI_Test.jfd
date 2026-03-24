@@ -1,0 +1,193 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.GridLayout ) {
+			"rows": 2
+			"columns": 1
+		} ) {
+			name: "this"
+			"$sizePolicy": 1
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"columns": 1
+				"rows": 2
+			} ) {
+				name: "panel1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"columns": 2
+				} ) {
+					name: "panel7"
+					"border": new javax.swing.border.BevelBorder( 1, null, null, null, null )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel8"
+						"border": &EmptyBorder0 new javax.swing.border.EmptyBorder( 0, 0, 0, 0 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label1"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 1, 48 )
+							addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label1MouseClicked", true ) )
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+						"rows": 3
+					} ) {
+						name: "panel9"
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+							name: "panel15"
+							"border": &EtchedBorder0 new javax.swing.border.EtchedBorder( 1, null, null )
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label2"
+								"horizontalAlignment": 0
+								"font": new java.awt.Font( "黑体", 1, 24 )
+							} )
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+							name: "panel16"
+							"border": #EtchedBorder0
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label3"
+								"horizontalAlignment": 0
+								"font": new java.awt.Font( "黑体", 1, 22 )
+							} )
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+							name: "panel17"
+							"border": #EtchedBorder0
+							add( new FormComponent( "javax.swing.JLabel" ) {
+								name: "label4"
+								"horizontalAlignment": 0
+								"font": new java.awt.Font( "黑体", 1, 18 )
+							} )
+						} )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"rows": 2
+				} ) {
+					name: "panel6"
+					"border": new javax.swing.border.EmptyBorder( 0, 0, 0, 0 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel10"
+						"border": #EmptyBorder0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label5"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 0, 22 )
+							"foreground": sfield java.awt.Color cyan
+							"border": #EtchedBorder0
+							addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label5MouseClicked", true ) )
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel11"
+						"border": #EmptyBorder0
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label6"
+							"horizontalAlignment": 4
+							"font": new java.awt.Font( "黑体", 1, 18 )
+							"border": #EtchedBorder0
+						} )
+					} )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"rows": 3
+			} ) {
+				name: "panel2"
+				"border": #EtchedBorder0
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"columns": 3
+				} ) {
+					name: "panel12"
+					"border": #EmptyBorder0
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel18"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label7"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 0, 18 )
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel19"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label8"
+							"horizontalAlignment": 0
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel20"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label9"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 0, 18 )
+						} )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"columns": 3
+				} ) {
+					name: "panel13"
+					"border": #EmptyBorder0
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel21"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label10"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 0, 18 )
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel22"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label11"
+							"horizontalAlignment": 0
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel23"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label12"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 0, 18 )
+						} )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+					"columns": 3
+				} ) {
+					name: "panel14"
+					"border": #EmptyBorder0
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel24"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label13"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 0, 18 )
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel25"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label14"
+							"horizontalAlignment": 0
+						} )
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+						name: "panel26"
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label15"
+							"horizontalAlignment": 0
+							"font": new java.awt.Font( "黑体", 0, 18 )
+						} )
+					} )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 285, 455 )
+			"location": new java.awt.Point( 200, 35 )
+		} )
+	}
+}

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="chajian:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/chajian_jar</output-path>
+    <root id="archive" name="chajian.jar">
+      <element id="module-output" name="chajian" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/pinyin4j-2.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/fastjson-1.2.47.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/JTattooDemo.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/flatlaf-demo-3.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

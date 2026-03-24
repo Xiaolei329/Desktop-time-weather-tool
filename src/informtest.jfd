@@ -1,0 +1,37 @@
+JFDML JFormDesigner: "8.2.1.0.348" Java: "17.0.7" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class java.awt.GridLayout ) {
+			"rows": 2
+		} ) {
+			name: "this"
+			"title": "温馨提醒"
+			"$sizePolicy": 1
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "天气异常提醒"
+					"font": new java.awt.Font( "黑体", 1, 20 )
+					"foreground": sfield java.awt.Color cyan
+					"horizontalAlignment": 0
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) ) {
+				name: "panel2"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"font": new java.awt.Font( "黑体", 1, 20 )
+					"foreground": sfield java.awt.Color yellow
+					"horizontalAlignment": 0
+					"text": "信息错误！正在重新获取"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 150, 65 )
+			"size": new java.awt.Dimension( 395, 215 )
+		} )
+	}
+}
